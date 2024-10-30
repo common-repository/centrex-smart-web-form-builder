@@ -1,0 +1,348 @@
+/*------------------ 
+Front End Form CSS
+------------------*/
+
+.centrex-app-container form {
+    margin-bottom: 0
+}
+
+.centrex-app-container .rendered-form {
+    overflow: hidden;
+}
+
+.centrex-app-container input[type=email],
+.centrex-app-container input[type=date],
+.centrex-app-container input[type=search],
+.centrex-app-container input[type=number],
+.centrex-app-container input[type=text],
+.centrex-app-container input[type=tel],
+.centrex-app-container input[type=url],
+.centrex-app-container input[type=password],
+.centrex-app-container textarea,
+.centrex-app-container select.form-control {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 0 .75em;
+    height: 2.507em;
+    font-size: .97em;
+    border-radius: 4px;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #333;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    -webkit-transition: color .3s, border .3s, background .3s, opacity .3s;
+    -o-transition: color .3s, border .3s, background .3s, opacity .3s;
+    transition: color .3s, border .3s, background .3s, opacity .3s
+}
+
+.centrex-app-container input:hover, .centrex-app-container textarea:hover, .centrex-app-container select:hover {
+    -webkit-box-shadow: inset 0 -1.8em 1em 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 -1.8em 1em 0 rgba(0, 0, 0, 0)
+}
+
+.centrex-app-container input[type=email], .centrex-app-container input[type=search], .centrex-app-container input[type=number], .centrex-app-container input[type=url], .centrex-app-container input[type=tel], .centrex-app-container input[type=text], .centrex-app-container textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.centrex-app-container textarea {
+    padding-top: .7em;
+    min-height: 120px
+}
+
+.centrex-app-container input[type=email]:focus, .centrex-app-container input[type=search]:focus, .centrex-app-container input[type=number]:focus, .centrex-app-container input[type=tel]:focus, .centrex-app-container input[type=text]:focus, .centrex-app-container input[type=password]:focus, .centrex-app-container textarea:focus, .centrex-app-container select:focus {
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    opacity: 1 !important;
+    outline: 0;
+    color: #333;
+    background-color: #fff
+}
+
+.centrex-app-container label, .centrex-app-container legend {
+    display: block;
+    font-size: 16px;
+    margin-bottom: .4em
+}
+
+.centrex-app-container label.error {
+    color: #bd0d0d;
+}
+
+.centrex-app-container input.error, .centrex-app-container select.error {
+    border-color: #bd0d0d;
+}
+
+.centrex-app-container legend {
+    width: 100%;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+    margin: 30px 0 15px
+}
+
+.centrex-app-container fieldset {
+    border-width: 0;
+    padding: 0
+}
+
+.centrex-app-container input[type=checkbox], .centrex-app-container input[type=radio] {
+    display: inline;
+    margin-right: 10px;
+    font-size: 16px
+}
+
+.centrex-app-container label > .label-body {
+    display: inline-block;
+    font-weight: normal;
+    margin-left: .5em
+}
+
+.centrex-app-container abbr[title=required] {
+    color: #b20000
+}
+
+.centrex-app-container input[type=checkbox] + label, .centrex-app-container input[type=radio] + label {
+    display: inline
+}
+
+.centrex-app-container select {
+    -webkit-box-shadow: inset 0 -1.4em 1em 0 rgba(0, 0, 0, .02);
+    box-shadow: inset 0 -1.4em 1em 0 rgba(0, 0, 0, .02);
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-position: right .45em top 50%;
+    background-repeat: no-repeat;
+    padding-right: 1.4em;
+    background-size: auto 16px;
+    border-radius: 0;
+    display: block
+}
+
+.centrex-app-container input[type="radio"],
+.centrex-app-container input[type="checkbox"] {
+    accent-color: #0f4988;
+}
+
+.rendered-form .form-group {
+    width: 98%;
+    margin: 1% 1%;
+    margin-left: 1% !important;
+    margin-bottom: 1% !important;
+}
+
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+    .centrex-app-container select::-ms-expand {
+        display: none
+    }
+
+    .centrex-app-container select:focus::-ms-value {
+        background: transparent;
+        color: currentColor
+    }
+}
+
+.centrex-app-container button {
+    position: relative;
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 260px;
+    background-color: #0f4988;
+    text-transform: uppercase;
+    font-size: .97em;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #0f4988;
+    vertical-align: baseline;
+    border-radius: 4px;
+    margin: 20px auto;
+    text-shadow: none;
+    line-height: 2.4em;
+    min-height: 2.5em;
+    padding: 0 1.2em;
+    -o-transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+    transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+    text-rendering: optimizeLegibility;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+.centrex-app-container .form-group.field-half-group {
+    float: left;
+    width: 48%;
+    margin: 1% 1%;
+}
+
+.centrex-app-container .form-group.field-full-group {
+    width: 98%;
+    margin: 1% 1%;
+    clear: both;
+}
+
+
+.centrex-progress-container {
+    margin: 0 10px 10px;
+}
+
+.centrex-progress-bar-background {
+    box-sizing: content-box;
+    height: 20px;
+    position: relative;
+    background: #555;
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.centrex-progress-bar-fill {
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    .centrex-app-container .form-group.field-half-group {
+        float: left;
+        width: 100% !important;
+        margin: 0;
+        clear: both;
+    }
+
+    .centrex-app-container .form-group.field-full-group {
+        width: 100% !important;
+        margin: 0;
+        clear: both;
+    }
+}
+
+/*Update animations*/
+.ld {
+    animation-play-state: paused;
+    visibility: hidden;
+    display: none;
+}
+
+.ld.ld-spin {
+    animation: ld-spin 1s infinite linear;
+}
+
+.loading .ld {
+    animation-play-state: running;
+    visibility: visible;
+}
+
+.loading .ld-ring {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    color: black;
+    display: inline-block;
+    box-sizing: content-box;
+    top: 26%;
+    left: 45%;
+}
+
+.ld-ring::after {
+    content: " ";
+    display: block;
+    width: 2em;
+    height: 2em;
+    box-sizing: border-box;
+    transform-origin: 0 0;
+    transform: translateZ(0) scale(0.5);
+    backface-visibility: hidden
+}
+
+.ld-ring::after {
+    border-radius: 50%;
+    border: .3em solid currentColor;
+    border-left-color: transparent
+}
+
+@keyframes ld-spin {
+    0% {
+        animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.centrex-app-container button.btn.centrex-plaid-link-button {
+    display: block;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.centrex-app-container .centrex-plaid-link-button.btn-success {
+    cursor: auto;
+    background: #2dc254 !important;
+    color: white !important;
+    border-color: #2dc254 !important;
+}
+
+.centrex-app-container .form-group.loading button.btn.centrex-plaid-link-button {
+    color: white;
+}
+
+.centrex-app-container .formbuilder-plaid-label {
+    text-align: center;
+    font-weight: bold;
+}
+
+.centrex-app-container .formbuilder-plaid label.error {
+    text-align: center;
+    font-weight: bold;
+}
+
+.centrex-app-container .plaid-load-message {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.centrex-app-container .form-group.loading {
+    pointer-events: none;
+    cursor: wait;
+}
+
+.centrex-app-container .plaid-logo {
+    background-image: url("../img/plaid_bank_logo.png");
+    background-size: cover;
+    width: 88px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.centrex-app-container .plaid-logo.logo-success {
+    background-image: url("../img/green_check_small.gif");
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}

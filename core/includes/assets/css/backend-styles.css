@@ -1,0 +1,436 @@
+/*----------------- 
+Backend related CSS
+-----------------*/
+
+/*----------------- 
+Centrex Options Panel CSS
+-----------------*/
+.centrex-options-wrapper input[type=email], .centrex-options-wrapper input[type=url], .centrex-options-wrapper input[type=text] {
+    width: 640px;
+    max-width: 100%;
+}
+
+.centrex-options-wrapper .form-table th {
+    clear: both;
+    display: block;
+    vertical-align: top;
+    text-align: left;
+    padding: 15px 10px 15px 0;
+    width: 100%;
+}
+
+.centrex-options-wrapper .form-table td {
+    clear: both;
+    display: block;
+    margin-bottom: 9px;
+    padding: 0;
+}
+
+.centrex-logo-options {
+    background-image: url("../img/centrex-logo.png");
+    background-size: cover;
+    width: 538px;
+    height: 137px;
+}
+
+
+/*-----------------
+Centrex Form Builder CSS
+-----------------*/
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .frmb .field-label, .centrex-form-builder-wrapper .form-wrap.form-builder .frmb .legend, .centrex-form-builder-wrapper .form-wrap.form-builder .frmb li.form-field .field-label {
+    display: inline-block;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .stage-wrap {
+    display: block;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .frmb {
+    min-height:615px !important;
+}
+
+.form-actions.btn-group .save-template {
+    background: #4caf50;
+    color: white;
+}
+
+.form-actions.btn-group .btn-danger {
+    background: #c72215;
+    color: white;
+}
+
+.form-actions.btn-group .get-data {
+    display: none;
+}
+
+.form-wrap.form-builder .frmb .sortable-options .option-selected {
+    width: auto;
+}
+
+.form-wrap.form-builder .frmb .prev-holder label {
+    display: inline;
+}
+
+.form-wrap.form-builder .frmb li {
+    background-color: transparent !important;
+}
+
+.form-wrap.form-builder .frmb .prev-holder input[type='email'],
+.form-wrap.form-builder .frmb .prev-holder input[type='tel'] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+
+.form-wrap.form-builder .frmb .form-field.half-width {
+    clear: none;
+    float: left;
+    width: 50%;
+}
+
+.centrex-sbbuilder-h1 {
+    padding-top: 20px;
+}
+
+.centrex-sidebar-notice {
+    padding: 0 5px 20px 5px
+}
+
+
+.plugin-header {
+    background-color: #0159a3;
+    background-image: linear-gradient(61deg, #0159a3, #337ff1);
+    background-size: 100%;
+    margin-left: -20px;
+    color: white;
+    font-size: 25px;
+    width: calc(100% + 20px);
+    clear: both;
+    min-height: 70px;
+}
+
+.plugin-header .centrex-plugin-text, .plugin-header img {
+    float: left;
+}
+
+.plugin-header img {
+    padding: 10px;
+}
+
+.plugin-header .centrex-plugin-text {
+    line-height: 64px;
+}
+
+.centrex-form-builder-wrapper .stage-wrap .hidden-field {
+    display: block;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .stage-wrap {
+    padding: 20px;
+}
+
+.centrex-form-builder-wrapper .posturlHelperText {
+    font-style: italic;
+}
+
+.centrex-form-builder-wrapper .clear-all.btn.btn-danger {
+    display: none;
+}
+
+.centrex-form-builder-wrapper .btn.btn-primary.save-template {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1%;
+    font-size: 16px;
+}
+
+.centrex-form-builder-wrapper .btn-group>.btn.btn-primary.save-template:last-child:not(:first-child) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .form-actions {
+    float: none;
+    margin-top: 5px;
+    width: 100%;
+    display: block;
+}
+
+
+.centrex-form-builder-wrapper .stage-wrap {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    -moz-box-shadow: 1px 1px 8px 4px #ccc;
+    -webkit-box-shadow: 1px 1px 8px 4px #ccc;
+    box-shadow: 1px 1px 8px 4px #ccc;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .frmb-control li:last-child {
+    border-radius: 5px;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .frmb-control li:first-child {
+    border-radius: 5px;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .frmb-control {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .frmb-control li {
+    border-radius: 5px;
+    margin: 0 5px 5px 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.centrex-form-builder-wrapper .form-wrap.form-builder .cb-wrap {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #055ca9;
+    width: 25%;
+}
+
+.centrex-form-builder-wrapper .centrex-sidebar-notice h1, .centrex-form-builder-wrapper .centrex-sidebar-notice p {
+    color: white;
+}
+
+.ui-widget-header {
+    border: 1px solid #176ac5;
+    background: #1769c5;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    padding: 6px 7px;
+    border-radius: 0;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-radius: 0;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #f6f7f7;
+}
+
+.ui-button:hover, .ui-button:focus {
+    border: 1px solid #2776de;
+    font-weight: normal;
+    color: white;
+    background: #2574db;
+    text-transform: capitalize;
+    padding: 5px 10px;
+}
+
+.ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #ccc;
+    background: white;
+    font-weight: normal;
+    color: #1c94c4;
+    text-transform: capitalize;
+    padding: 5px 10px;
+}
+
+.ui-icon-alert {
+    margin: 12px 12px 20px 20px;
+}
+
+/* hide all of the unused attrs for pagebreak: */
+.form-wrap.form-builder .frmb .pageBreak-field .field-label,
+.form-wrap.form-builder .frmb .pageBreak-field .form-group.required-wrap,
+.form-wrap.form-builder .frmb .pageBreak-field .form-group.placeholder-wrap,
+.form-wrap.form-builder .frmb .pageBreak-field .form-group.className-wrap,
+.form-wrap.form-builder .frmb .pageBreak-field .form-group.name-wrap,
+.form-wrap.form-builder .frmb .paragraph-field .form-group.subtype-wrap {
+    display: none !important;
+}
+
+.form-wrap.form-builder .frmb .form-elements .prePopulate-wrap label:first-child {
+    white-space: break-spaces;
+}
+
+.form-wrap.form-builder .frmb .form-field .form-group.customFieldId-wrap .input-wrap {
+    width: 75px;
+}
+
+.centrex-page-break {
+    align-items: center;
+    color: #666;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+}
+
+
+.centrex-page-break::before {
+    background: repeating-linear-gradient(to left, #ddd 0, #ddd 9px, transparent 9px, transparent 13px);
+    margin-right: 1rem;
+}
+
+.centrex-page-break::after {
+    background: repeating-linear-gradient(to right, #ddd 0, #ddd 9px, transparent 9px, transparent 13px);
+    margin-left: 1rem;
+}
+
+.centrex-page-break::before,
+.centrex-page-break::after {
+    content: "";
+    flex-grow: 1;
+    height: 4px;
+}
+
+/*-----------------
+Centrex Form List Page
+-----------------*/
+
+.centrex-table-view .widefat a, .centrex-table-view .widefat span {
+    font-size: 15px;
+}
+
+.centrex-table-view .widefat td {
+    line-height: 2.5em;
+}
+
+.centrex-add-new-form-button {
+    margin: 15px 0;
+}
+
+.centrex_page_centrex-form-builder .centrex-form-row {
+    transition: transform 1.5s 0s, opacity 1.25s 0s;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.centrex_page_centrex-form-builder .centrex-form-row.is-deleting {
+    transition: transform 1.5s 0s, opacity 1.5s 0s;
+    transform: translateX(100vw);
+    opacity: 0;
+}
+
+.centrex_page_centrex-form-builder .copy-shortcode, .centrex_page_centrex-form-builder .clone-form {
+    color: #135e96;
+    cursor: copy;
+}
+
+.centrex_page_centrex-form-builder .copy-shortcode.copied {
+    color: #4caf50;
+    transition: color 1000ms linear;
+}
+
+
+.centrex_page_centrex-form-builder .centrex-form-row.disable-deletion .delete-form-row {
+    cursor: not-allowed;
+}
+
+.centrex_page_centrex-form-builder .delete-form-row {
+    color: #e31515;
+    cursor: pointer;
+}
+
+
+.centrex-delete-dialog {
+    display: none;
+}
+
+.centrex-outer-stage-inputs {
+    padding-bottom: 15px;
+}
+
+.centrex-outer-stage-inputs label {
+    max-width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    width: 195px;
+    font-size: 16px;
+}
+
+.centrex-outer-stage-inputs input {
+    width: 100%;
+    max-width: 100%;
+    border-color: #cccccc;
+    -moz-box-shadow: 1px 1px 8px 4px #ccc;
+    -webkit-box-shadow: 1px 1px 8px 4px #ccc;
+    box-shadow: 1px 1px 8px 4px #ccc;
+}
+
+.centrex-form-settings-container {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 0 solid #c5c5c5;
+    background: transparent;
+    max-width: calc(37% - 11px);
+}
+
+#centrex-form-settings-toggle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#centrex-form-settings-toggle i {
+    color: #327eef;
+}
+
+#centrex-form-settings-toggle .builder-header {
+    font-size: 28px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #52d8f8;
+    background-image: linear-gradient(61deg, #52d8f8, #337ff1);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-widget-header {
+    border: 1px solid #0f4988;
+    background: #0F4987;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 7px;
+}
+
+.ui-dialog-buttonset {
+    text-align: center;
+}
+
+.ui-widget button {
+    margin: 10px;
+}
+
+.plaid-logo {
+    background-image: url("../img/plaid_bank_logo.png");
+    background-size: cover;
+    width: 88px;
+    height: 48px;
+    margin: 10px;
+}
+
+.centrex-form-error-container.has-error {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    background: #e31515;
+    color: white;
+    padding: 1%;
+    border-radius: 15px;
+}

@@ -1,0 +1,21 @@
+.conditionalFieldSetting-wrap.form-group {
+    display: none;
+}
+
+.form-wrap.form-builder .conditionalFieldType-wrap .input-wrap {
+    display: flex;
+}
+
+.form-wrap.form-builder .conditionalFieldType-wrap select.form-control {
+    width: 50%;
+}
+
+.update-conditional-btn {
+    border: 0 none;
+    margin: 0 0 0 10px;
+}
+
+.centrex-conditional-dialog {
+    display: none;
+    padding: 10px 15px;
+}
